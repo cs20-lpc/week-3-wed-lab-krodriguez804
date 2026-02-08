@@ -10,19 +10,19 @@ using namespace std;
 
 int main() {
 
-    LinkedList<int> intList;
+    LinkedList<double> intList;
 
     cout << "Is list empty? " << intList.isEmpty() << endl;
 
     cout << "Length: " << intList.getLength() << endl;
 
-    intList.append(12);
+    intList.append(1.02);
 
     cout << intList << endl;
 
-    intList.append(95);
+    intList.append(15.15);
 
-    intList.append(108);
+    intList.append(327.26);
 
     cout << intList << endl;
 
@@ -36,7 +36,7 @@ int main() {
 
     cout << "Length: " << intList.getLength() << endl;
 
-    intList.replace(1, 214);
+    intList.replace(1, 126.593);
 
     cout << intList << endl;
 
