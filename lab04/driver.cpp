@@ -2,9 +2,7 @@
 // Krystle Dao Week 3 Wed Lab
 
 #include <iostream>
-#include <string>
 #include "LinkedList.hpp"
-#include "List.hpp"
 
 using namespace std;
 
