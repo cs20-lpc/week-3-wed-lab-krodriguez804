@@ -2,6 +2,8 @@
 #define LINKED_LIST_HPP
 
 #include "List.hpp"
+#include <iostream>
+using namespace std;
 
 template <typename T>
 class LinkedList : public List<T> {
