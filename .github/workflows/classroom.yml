@@ -22,6 +22,7 @@ jobs:
         command: g++ -std=c++17 -Wall -Wextra -O2 -o driver driver.cpp
         timeout: 10
         max-score: 10
+      working-directory: lab04
     - name: Autograding Reporter
       uses: classroom-resources/autograding-grading-reporter@v1
       env:
